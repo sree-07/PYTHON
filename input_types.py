@@ -38,8 +38,6 @@
 # height=input("enter your height")
 # # name="srikanth";age=23;height=6.0
 # print("my name is %s" "my age is%d" "my height is%f" %(name,age,height))
-# print("my name is %s" "my age is%d" "my height is%f" %(age,height,name))
-# print("my name is %s" "my age is%d" "my height is%f" %(height,name,age))#TypeError: %d format: a number is required, not str
 
 
 """6th way"""
@@ -52,8 +50,8 @@
 # print("my name is {2} and my age is {1} and my height is {0}".format(name,age,height))#my name is 6 and my age is 23 and my height is srikanth
 
 """8th way"""
-name=input("enter your name")
-age=input("enter your age")
-height=input("enter your height")
-print(f"my name is {name} and my age is {age} and my height is {height}")
+# name=input("enter your name")
+# age=input("enter your age")
+# height=input("enter your height")
+# print(f"my name is {name} and my age is {age} and my height is {height}")#my name is srikanth and my age is 23 and my height is 6
 
