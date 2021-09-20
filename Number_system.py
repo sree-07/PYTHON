@@ -134,42 +134,9 @@
 # print(e,type(e))            #2.718281828459045 <class 'float'>
 
 
-"""int datatype"""
-# n=2;m=3;o=5
-# print(n,type(n))
-# print(m,type(m))
-# print(o,type(o))
-"""float type"""
-# p=2.3;q=3.4;r=5.6
-# print(p,type(p))
-# print(q,type(q))
-# print(r,type(r))
-"""string type"""
-
-# a="hello"
-# print(a)          #hello
-# print(a,type(a))  #hello <class 'str'>
-# n="python"
-# m=int(n)
-# o=float(n)
-# print(n)
-# print(m)            #ValueError: invalid literal for int() with base 10: 'pyhton'
-# print(o)              #ValueError: could not convert string to float: 'python'
 
 
-"""convert int-->float"""
-# a=12
-# print(a)
-# print(int(a))
-# print(float(a))
-"""convert float-->int"""
-# b=2.2
-# print(b)
-# print(float(b))
-# print(int(b))
-
-
-"""format"""
+"""format         """
 # k=1.1+2.2
 # print('%f'%k)            #3.300000
 # print('%1f'%k)           #3.300000
