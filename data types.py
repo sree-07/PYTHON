@@ -464,8 +464,51 @@ n=[1,2.2,"python",[11,22],(1,1),]
 # print(k)     #['hg', 'ii', 'se', 'tf']
 
 
-"""   tuple datatypes"""
 
+"""   tuple methods(2)"""
+
+"""'count', 'index'"""
+# print(dir(tuple))
+# a=(1,4,8,12,23,56,78,54,4,133,66,88,2,99)
+# print(a.count(4))    #2
+# print(a.index(54))   #7
+
+
+""" dictionary methods(11)"""
+""" 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 
+'popitem', 'setdefault', 'update', 'values'"""
+# print(dir(dict))
+# h={1:1,2:"hello",3:2.2,4:(1,2),5:[2,2],6:{5,8}}
+# print(h[1],type(h[1]))#1 <class 'int'>
+# print(h[2],type(h[2]))#hello <class 'str'>
+# print(h,type(h))#{1: 1, 2: 'hello', 3: 2.2, 4: (1, 2), 5: [2, 2], 6: {8, 5}} <class 'dict'
+# print(h.keys())#dict_keys([1, 2, 3, 4, 5, 6])
+# print(h.values())#dict_values([1, 'hello', 2.2, (1, 2), [2, 2], {8, 5}])
+# print(h.items())#dict_items([(1, 1), (2, 'hello'), (3, 2.2), (4, (1, 2)), (5, [2, 2]), (6, {8, 5})])
+# h.clear()
+# print(h)             #{}
+
+# a=[100,101,102,103,104,105,106]
+# b=dict.fromkeys(a)
+# print(b,type(b))      #{100: None, 101: None, 102: None, 103: None, 104: None, 105: None, 106: None} <class 'dict'>
+# print(dict.fromkeys(a,"python"))   #{100: 'python', 101: 'python', 102: 'python', 103: 'python', 104: 'python', 105: 'python', 106: 'python'}
+
+# h={1:1,2:"hello",3:2.2,4:(1,2),5:[2,2],6:{5,8}}
+# print(h.get(2))      #hello
+# print(h.get(10))       #None
+# print(h[2])          #hello
+# print(h[10])       #KeyError: 10
+# h.pop(3)
+# print(h)        #{1: 1, 2: 'hello', 4: (1, 2), 5: [2, 2], 6: {8, 5}}
+# h.popitem()
+# print(h)            #{1: 1, 2: 'hello', 3: 2.2, 4: (1, 2), 5: [2, 2]}
+
+
+# h={1:1,2:"hello",3:2.2,4:(1,2),5:[2,2],6:{5,8}}
+# h.update({7:"python"})
+# print(h)          #{1: 1, 2: 'hello', 3: 2.2, 4: (1, 2), 5: [2, 2], 6: {8, 5}, 7: 'python'}
+# h.setdefault(8,[11,22])
+# print(h)          #{1: 1, 2: 'hello', 3: 2.2, 4: (1, 2), 5: [2, 2], 6: {8, 5}, 7: 'python'}
 
 
 
