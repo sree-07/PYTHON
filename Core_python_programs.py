@@ -142,13 +142,168 @@
 
 
 """11)to print 1 to 10 number"""
+
 # for i in range( 1,11):
 #     print(i)
 
-while(a<=10):
-    a=1
-    print(a)
-    a+=1
+# a=+1
+# while(a<=10):
+   
+#     print(a)
+#     a=1
+"""12) write a python program to print from m to n even number"""
+"""method 1"""
+# m,n=[int(i)for i in input("enter start value,enter end value").split(',')]
+# x=m
+# if x%2!=0:x=m+1
+# while(x<=n):
+#   print(x)
+#   x+=2
+
+"""method 2""" 
+# m=int(input("enter starting number:"));n=int(input("enter ending number:"))
+# for i in range(m,n,2):
+#   print(i)
+
+"""method 3""" 
+# m=int(input("enter starting number:"));n=int(input("enter ending number:"))
+# while(m<=n):
+#   print(m)
+#   m+=2
+
+"""13) write a python program to display 100 to 110"""
+"""method 1"""
+# for i in range(100,111):
+#   print(i)
+
+"""method 2"""
+# a=range(100,111)
+# for i in a:
+#   print(i)
+
+"""method 2"""
+# m=int(input("enter m value:"))
+# n=int(input("enter n value:"))
+# while(m<=n):
+#   print(m)
+#   m+=1
+
+
+"""14)write a program to display even numbers between 100 to 110"""
+"""method 1"""
+# for i in range(100,111,2):
+#   print(i)
+
+"""method 2"""
+# m=int(input("first number:"))
+# n=int(input("last number:"))
+# for i in range(m,n,2):
+#   print(m)
+#   m+=2
+
+"""15)write a python program to display letters in given string"""
+"""method 1"""
+n="python"
+# for i in n:
+#   print(i)
+"""method 2"""
+# n="python"
+# for i in n[::1]:
+#   print(i)
+"""method 3"""
+# n="python"
+# for i in n[::2]:
+#   print(i)
+
+"""16)write a python program for sum of listed numbers"""
+"""method 1"""
+# l=[5,10,15,20,25,30]
+# sum=0
+# for i in l:
+
+#   sum+=1
+# print("no.of elements present inside the list is=",sum)
+
+"""method 2"""
+# import math
+# a=[10,20,30]
+# print(a[0]+a[1]+a[2])
+# print(sum(a))
+
+"""17)write a python program multiplication table"""
+# n=int(input("multiplication of which table:"))
+# for i in range(1,11):
+#   print(n,"x",i,"=",n*i)
+
+"""18)write a program for check element present in the list or not"""
+# n=[1,4,7,9,11,45,66,98,23,42]
+# f=int(input("which element you want to find?"))
+# for i in n:
+#   if f in n:
+#     print("the value is found")
+#     break
+#   elif f not in n:
+#     print("the value not found")
+#     break
+
+"""19) write a python program for break loop"""
+# n=0
+# while(n<10):
+#   n+=1
+#   if n==7:
+#     pass
+#   print(n)
+
+"""20) Not to display with continue"""
+"""type_1"""
+# n=0
+# while n<10:
+#   n+=1
+#   if n>=6:
+#     continue
+#   print(n)
+
+"""type_2"""
+# n=0
+# while n<10:
+#   n+=1
+#   if n<5:
+#     continue
+#   print(n)
+
+"""type_3"""
+# n=0
+# while n<10:
+#   n+=1
+#   if n>5:
+#     continue
+#   print(n)
+
+
+"""type_4"""
+# n=0
+# while n<10:
+#   n+=1
+#   if n>=5:
+#     continue
+#   print(n)
+
+
+"""21)retrive_only_negative"""
+"""1st_type"""
+# n=[2,4,6,-4,-3,-1,0,7]
+# n.sort()
+# for i in n:
+#   if(i<0):
+#     print(i)
+"""2nd_type"""
+# n=[2,4,6,-4,-7,-9]
+# for i in n:
+#   if(i>0):
+#     print(i)
+#   else:
+#     pass
+
 
 
 
